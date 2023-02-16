@@ -185,3 +185,24 @@ h1, h2
     max-width: 300px;
     max-height: 500px;
 }
+
+
+footer
+{
+    background-color: darkslategrey;
+    position: absolute;
+    left: 0;
+    bottom: 15;
+   
+    width: 100%;
+    overflow:hidden;
+}
+
+footer p
+{
+    color:white;
+    font-weight:400;
+    float: left;
+    padding-right: 10px;
+    font-style:italic;
+}
