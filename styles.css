@@ -125,7 +125,7 @@ h1, h2
     padding-top:75px;
     padding-left:25px;
     padding-bottom:20px;
-    grid-template-columns: auto 750px auto;   
+    grid-template-columns: auto 525px auto;   
 }
 .goals-grid-item
 {
@@ -205,4 +205,11 @@ footer p
     float: left;
     padding-right: 10px;
     font-style:italic;
+}
+
+figcaption
+{
+   font-style: italic;
+   padding:5px;
+   text-align: center; 
 }
