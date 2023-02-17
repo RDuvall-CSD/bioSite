@@ -138,19 +138,22 @@ h1, h2
     max-height: 500px;
     max-width: 300px;
     padding-left: 50px;
+    margin-top: 150px;
     
     
 }
 
 #space-burial
 {
-   padding-top: 10px;
-   padding-right: 35px
+    margin-top:  350px; 
+    padding-top: 10px;
+    padding-right: 35px
     
 }
 
 #goals
 {
+    float: bottom;
     padding:50px;
 }
 
@@ -182,6 +185,7 @@ h1, h2
 
 #about-image
 {
+    margin-top: 250px;
     max-width: 300px;
     max-height: 500px;
 }
