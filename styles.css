@@ -92,7 +92,7 @@ h1, h2
 .hobbies-grid-container
 {
     display:grid;
-    grid-template-columns: auto 500px auto;
+    grid-template-columns: auto auto auto;
 }
 .hobbies-grid-item
 {
@@ -192,10 +192,17 @@ footer
     background-color: darkslategrey;
     position: absolute;
     left: 0;
-    bottom: 15;
+   
    
     width: 100%;
     overflow:hidden;
+}
+
+#about-footer
+{
+    
+    margin-top: 47px;
+    
 }
 
 footer p
