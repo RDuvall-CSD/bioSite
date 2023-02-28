@@ -1,12 +1,12 @@
 
-@font-face {
+@font-face 
+{
     font-family: 'montserrat_alternatesregular';
     src: url('montserratalternates-regular-webfont.woff2') format('woff2'),
          url('montserratalternates-regular-webfont.woff') format('woff'),
          url('montserratalternates-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body
@@ -51,11 +51,8 @@ h1, h2
     display: block;    
     color:white; 
     text-align: center;
-    
     text-decoration: none;
 }
-
-
 
 .nav-grid-container
 {    
@@ -77,7 +74,7 @@ h1, h2
     align-content:center;
     display:grid;
     padding: 15px;
-    grid-template-columns: 500px auto;
+    grid-template-columns: 500px auto auto;
     
 }
 
@@ -88,6 +85,8 @@ h1, h2
     padding: 50px;
     
 }
+
+
 
 .hobbies-grid-container
 {
@@ -122,7 +121,7 @@ h1, h2
 .goals-grid-container
 {
     display:grid;
-    padding-top:75px;
+    padding-top:25px;
     padding-left:25px;
     padding-bottom:20px;
     grid-template-columns: auto 525px auto;   
@@ -138,14 +137,14 @@ h1, h2
     max-height: 500px;
     max-width: 300px;
     padding-left: 50px;
-    margin-top: 150px;
+    margin-top: 250px;
     
     
 }
 
 #space-burial
 {
-    margin-top:  350px; 
+    margin-top:  250px; 
     padding-top: 10px;
     padding-right: 35px
     
@@ -154,7 +153,7 @@ h1, h2
 #goals
 {
     float: bottom;
-    padding:50px;
+    padding:15px;
 }
 
 #hobbies-banner
