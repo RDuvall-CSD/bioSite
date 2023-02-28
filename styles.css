@@ -219,6 +219,17 @@ footer p
     font-style:italic;
 }
 
+#back-to-repository
+{
+    font-weight:bold;
+    font-style: italic;
+    font-size:14px;
+    margin-top:10px;
+    margin-right:25px;
+    float: right;
+    
+}
+
 figcaption
 {
    font-style: italic;
